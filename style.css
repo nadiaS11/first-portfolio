@@ -3,9 +3,9 @@
     padding: 0px;
 }
 
-/* /* body{
-    position: relative; 
-} */
+body{
+    font-family: 'Work Sans', sans-serif;
+} 
 
 .header{    
 
@@ -20,15 +20,14 @@
 .banner{
     display:block;
     text-align: right;
-    padding: 200px 45px 180px;
+    padding: 225px 45px 160px;
 }
 .title{
     color:#151414;
     text-align: right;
     font-size: 65px;
     font-style: normal;    
-    font-family: 'Work Sans', sans-serif;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 .banner-paragraph{
     color:  #444343;
@@ -56,14 +55,56 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:90px
+    gap:90px;
+    padding-top: 50px;    
+    padding-bottom: 50px;
+}
+.picture>img{
+    background-image: url('./images/Ellipse\ 2\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: bottom
+    ;
+}
+
+.custom-list li:before {
     
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./images/check\ 1.png");
+    background-size: contain;
+    margin-right: 0.5em;
+  }
+  
+
+.description{
+    padding-top: 32px;
+
 }
-div>li::before {
-        content: "\2714"; /* Unicode for checkmark symbol */
-        color: #16D887;
-        margin-right: 5px;
+.description>h2{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 45px;
 }
-div li{
+.description-paragraph{
+    padding-top: 20px;
+    color:  #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    
+
+}
+.custom-list {
     list-style: none;
-}
+    padding-top: 10px;
+  }
+
+.custom-list li{
+    padding-top: 5px;
+} 
