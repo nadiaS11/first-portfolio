@@ -153,14 +153,55 @@ section> h2{
     font-style: normal;
     font-weight: 700;
 }
-.second{    
+.second {    
     background-color: #FFF;
     color:#F15B22;
     margin: 25px 0px;
 }
 footer{
     width:100%;
-    height:500px;
+    height:577px;
     background-color: black;
     margin-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white    
+}
+
+.last{
+    display: block;  
+}
+.last input{
+    background-color: black;
+    width:325px;
+    height:64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding:0px 5px;
+}
+.last h1{
+    color: #F8F8F8;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+.last h3{
+    font-size: 25px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 31px;
+}
+.last>p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 16px 0px 25px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    height: 46px;
 }
